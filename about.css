@@ -1,0 +1,44 @@
+body{
+	background-color: #212121;/*background colour */
+	color: white;/*font color*/
+    font-family: 'Montserrat', sans-serif;/*font style*/
+    font-size: 11px;/* font size*/
+}
+
+    h2 a { 
+    color: white; /*font color*/
+	text-decoration: none; 
+	padding-left: 150px; /*padding from the left*/
+	width: 100%;/*max width*/
+		}	
+
+h2 a:hover {
+    opacity: 0.3;/* while hovering the opacity decreases*/
+    text-decoration: underline;/*underlines when hovering*/
+}
+
+
+.container{
+	display: flex; /*displays flex items*/
+	flex-direction: row; /*displays flex items in rows*/
+	justify-content: flex-end; /*displays flex item towards the right*/
+	padding: 1%; /* some padding*/
+	text-decoration: none; /*text decoration*/
+	}
+
+.content{
+	background-color: #FFB300; /*adds a background color*/
+	padding: 20px; /*adds some padding*/
+	color: black; /*font color*/
+	font-size: 25px; /*determines the font size*/
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* creates a shadow effect*//* creates a shadow effect*/
+	text-shadow: 0.5px 0.5px 1px #000000; /* creates a shadow effect*/
+	text-decoration: none; /*removes any text devoration*/
+		}
+
+	   
+footer{
+	padding-top: 100px;/*adds ome padding from the top*/
+	text-decoration: underline; /* underlines the footer */
+	text-align: center;/* aligns the footer at the center*/
+	}

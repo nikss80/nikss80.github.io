@@ -1,0 +1,77 @@
+body{
+	background-color: #212121;/*background colour */
+	color: white;/*font color*/
+    font-family: 'Montserrat', sans-serif;/*font style*/
+    font-size: 11px;/* font size*/
+    }
+
+h2 a { 
+	color: white; /*font color*/
+	text-decoration: none; 
+	padding-left: 150px; /*padding from the left*/
+	width: 100%;/*max width*/
+	 }
+
+h2 a:hover {
+    opacity: 0.3;/* while hovering the opacity decreases*/
+    text-decoration: underline;/*underlines when hovering*/
+			}
+
+.container{
+	display: flex; /*displays flex items*/
+	flex-direction: row; /*displays flex item in rows*/
+	justify-content: flex-end; /*displays flex item towards the right*/
+	padding: 1%; /*padding between items*/
+	  		}		
+
+.contents{
+	background-color: #FFB300;/*background colour of contents*/
+	display:flex; /*displays flex items*/
+	flex-direction: row;/*displays flex item in rows*/
+	padding: 20px; /*padding between items*/
+	color: black;  /*font color*/
+	font-size: 50px; /* font size*/
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* creates a shadow effect*/
+	text-shadow: 0.5px 0.5px 1px #000000; /* creates a shadow effect*/
+	text-decoration: none;
+		 }
+h3 a{
+	color: black; /*font color*/
+	text-decoration: none;/* text style*/
+	}
+
+h3 a:hover	{
+	color: white; /*color while hovering*/
+	border-color: black;/*border color*/
+	}
+
+.left-column{
+	width: 50%;/*max width*/
+	height: 450px;/*height of the item*/ 
+	padding: 1%; /*padding between*/
+}
+
+.right-column{/*max width*/
+	width: 50%; /*max width*/
+	height: 500px; /*height of the item*/ 
+	padding-left: 5%; /*padding between*/
+			}
+
+footer{
+	padding-top: 100px;/*some padding from the top*/
+	text-decoration: underline; /* underlines the footer */
+	text-align: center;/* aligns the footer at the center*/
+	}
+
+@media screen and (max-width: 600px){/*makes the website responsive*/
+	.container {
+	flex-direction: column;/*display flex items in columns*/
+		       }
+	.contents {
+	flex-direction: column;/*display flex items in columns*/
+			}	
+	h2 a {
+	width: 100%;/*width of 2nd header*/
+		}
+	
+}

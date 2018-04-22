@@ -1,0 +1,67 @@
+body{
+	background-color: #212121;/*background colour */
+	color: white;/*font color*/
+    font-family: 'Montserrat', sans-serif;/*font style*/
+    font-size: 11px;/* font size*/
+}
+
+    h2 a { 
+    color: white;/*font color*/
+	text-decoration: none;/*removes text decoration*/
+	padding-left: 150px;/*padding from the left*/
+	width: 100%;/*max width*/
+		}	
+
+h2 a:hover {
+    opacity: 0.3;/* while hovering the opacity decreases*/
+    text-decoration: underline;/*underlines when hovering*/
+}
+
+
+.container{
+	display: flex;/*displays flex items*/
+	flex-direction: row;/*displays flex items in rows*/
+	justify-content: flex-end; /*displays flex item towards the right*/
+	padding: 1%;/* some padding*/
+	text-decoration: none;/*text decoration*/
+	}
+
+.contents{
+	background-color: #FFB300; /*adds a background color*/
+	display: flex;/*displays flex items*/
+	flex-direction: row;/*displays flex items in rows*/
+	padding: 5px;/*adds some padding*/
+	color: black;/*font color*/
+	font-size: 25px;/*determines the font size*/
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);/* creates a shadow effect*//* creates a shadow effect*/
+	text-shadow: 0.5px 0.5px 1px #000000; /* creates a shadow effect*/
+	text-decoration: none;/*removes any text decoration*/
+		}
+.column {
+	display: flex;/*displays flex items*/
+	flex-direction: row;/*displays flex items in rows*/
+	padding: 10px;/*adds some padding*/
+	flex: 50%;/*flex properties*/
+	overflow: hidden;/*extensive contents are hidden*/
+		}
+
+	   
+footer{
+	padding-top: 100px;/*adds ome padding from the top*/
+	text-decoration: underline; /* underlines the footer */
+	text-align: center;/* aligns the footer at the center*/
+	}
+
+
+@media screen and (max-width: 600px){/*makes the website responsive*/
+	.container {
+	flex-direction: column;/*display flex items in columns*/
+		       }
+	.contents {
+	flex-direction: column;/*display flex items in columns*/
+			}
+
+	h2 a {
+	width: 100%;/*width of 2nd header*/
+		}
+}
